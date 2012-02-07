@@ -8,7 +8,7 @@ Ext.define('Sparqd.view.Home', {
             {
                 xtype: 'nestedlist',
                 id: 'nestedlist-panel',
-                store: Ext.getStore('Orders')
+                store: 'Orders'  
             }
 		]
     }
